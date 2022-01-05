@@ -2,7 +2,7 @@
 // const mdLinks = require('../');
 
 import { absolutePath, fileOrDir, readFile, getLinks } from '../index.js'
-// import { mdLinks, validateLinks } from '../index.js'
+
 
 //test para función que resuelve la ruta a absoluta
 describe('absolutePath', () => {
@@ -56,20 +56,20 @@ describe('getLinks', () => {
   })
   
   it('deberia retornar un arreglo de objetos', () => {
-    const fileContent = '[URL test1](https://github.com/andreacarrascor/SCL018-md-links)';
-    expect(getLinks(fileContent)[0].href).toBe('https://github.com/andreacarrascor/SCL018-md-links');
+    const fileContent = '[URL test1](https://github.com/Yesvrv/SCL018-md-links)';
+    expect(getLinks(fileContent)[0].href).toBe('https://github.com/Yesvrv/SCL018-md-links');
   })
   // it('deberia retornar un arreglo de objetos', () => {
   //   const path = 'C:\\Users\\Vrysk\\Documents\\Bootcamp-Laboratoria\\SCL018-md-links\\prueba.md';
   //   const result = [
   //     {
   //       text: 'URL test1',
-  //       href: 'https://github.com/andreacarrascor/SCL018-md-links',
+  //       href: 'https://github.com/Yesvrv/SCL018-md-links',
   //       file: 'prueba.md'
   //     },
   //     {
   //       text: 'URL test2',
-  //       href: 'https://github.com/andre/SCL018-md-links',
+  //       href: 'https://github.com/Yesvrv/',
   //       file: 'prueba.md'
   //     }];
   //   expect(getLinks(path)).toEqual(result);
