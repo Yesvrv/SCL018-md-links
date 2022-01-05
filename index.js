@@ -53,4 +53,3 @@ const mdLinks = (path, options) => {
 };
 
 export { absolutePath, fileOrDir, readFile, getLinks, mdLinks, validateLinks };
-// export { , mdLinks, validateLinks  };
